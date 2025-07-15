@@ -2,7 +2,10 @@
   "name": "edusource-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+  "build": "react-scripts build"   // or "vite build" for Vite
+}
+
   },
   "dependencies": {
     "express": "^4.18.2",
